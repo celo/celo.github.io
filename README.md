@@ -1,6 +1,8 @@
 # Celo's blog
 
-Built with [Jekyll][j] using [Lagom theme][l]
+Built with [Jekyll][j] using [Lagom theme][l].
+
+View it in [https://celo.github.io/][c]
 
 ## Licensing
 
@@ -10,3 +12,4 @@ me or using a disclaimer or anything silly like that.
 
 [j]: http://jekyllrb.com/
 [l]: https://github.com/swanson/lagom
+[c]: https://celo.github.io/
