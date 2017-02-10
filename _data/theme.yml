@@ -6,17 +6,26 @@ highlight_color: '#3498db'
 # Profile links on the left sidebar, leave blank to ignore
 social:
   github: celo
-  #bitbucket: philipj
-  #hacker_news: swanson
-  #stackexchange: 348619
-  #stackoverflow: 348619
+  bitbucket: marcelomogami
+  gitlab: celo
+  #hacker_news: 
+  #stackexchange: 
+  #stackoverflow: 
   twitter: celo
-  facebook: marcelomogami
-  #tumblr: animalygifs
-  #linkedin: marcelomogami
-  #gplus: 110552447039675960964
+  facebook:
+    name: marcelomogami
+    id: marcelomogami
+  #tumblr: 
+  linkedin: 
+    name: marcelomogami
+    id: marcelomogami
+  gplus: 
+    name: marcelomogami
+    id: +MarceloMogami
   gravatar: a0e7e3946edecd093fd76b9db68a1575
   #flickr: johndoe
+  instagram: marcelomogami
+  #snapchat: 
 
 # "Hi, I'm _______"
 name: Marcelo "Celo" Mogami
