@@ -5,26 +5,26 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
+  github: celo
   #bitbucket: philipj
-  hacker_news: swanson
+  #hacker_news: swanson
   #stackexchange: 348619
   #stackoverflow: 348619
-  twitter: _swanson
-  #facebook: zuck
+  twitter: celo
+  facebook: marcelomogami
   #tumblr: animalygifs
-  #linkedin: philipjagielski
+  #linkedin: marcelomogami
   #gplus: 110552447039675960964
-  #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
+  gravatar: a0e7e3946edecd093fd76b9db68a1575
   #flickr: johndoe
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
-tagline: "weak opinions, strongly held"
+name: Marcelo "Celo" Mogami
+email: marcelomogami@gmail.com
+tagline: "Tentando aprender coisas novas, pra variar um pouco"
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-xxxx-x
+google_analytics_key: UA-91759011-1
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
