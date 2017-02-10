@@ -37,23 +37,23 @@ $ rvm upgrade 2.3.0 2.4.0
 $ rvm use 2.4.0 --default
 {% endhighlight %}
 
-E assim atualizei o rvm e instalei o Ruby mais recente.
+E assim atualizei o *rvm* e instalei o Ruby mais recente.
 
 Procurei um [tema legal](https://drjekyllthemes.github.io/) e achei esse 
 [lagom](https://github.com/swanson/lagom).
 
-Clonei o repo num remote diferente e comecei a seguir o README. 
+Clonei o repositório num remote diferente e comecei a seguir o README. 
 {% highlight shell %}
 $ gem install bundler
 $ bundle install
 {% endhighlight %}
 
-E deu erro na instalação da gem json.
+E deu erro na instalação da gem *"json"*.
 
 Procurei no Google e achei uma [issue](https://github.com/github/pages-gem/issues/376)
-falando de incompatibilidade da gem json na versão 1.8.1 com o ruby 2.4.0.
+falando de incompatibilidade do *"json"* na versão `1.8.1` com o Ruby `2.4.0`.
 
-Então lá vou eu tentar usar outro ruby:
+Então lá vou eu tentar usar outro Ruby:
 {% highlight shell %}
 $ rvm install 2.3.3
 $ gem install bundler
@@ -72,11 +72,14 @@ Vamos então testar o serviço:
 {% highlight shell %}
 $ jekyll serve
 {% endhighlight %}
-Pra variar, erro. Faltou uma gem "pygments.rb", que eu adicionei no Gemfile e instalei.
+Pra variar, erro. Faltou uma gem *"pygments.rb"*, que eu adicionei no `Gemfile` e instalei.
 
 Mais algumas dificuldades para criar um Runner no c9 para no projeto. Nesse caso era
 o arquivo `.ruby-version` que estava configurado na versão `2.1.5` e assim não 
 carregava o Ruby certo para rodar o Jekyll.
+
+Só para constar, o comando para colocar no runner é `jekyll serve --host $IP --port $PORT`
+
 
 E assim, aprendendo um pouco de Markdown, vou terminando este post para referência futura.
 
@@ -84,3 +87,7 @@ Acredito que farei mais alguns posts neste blog relatando minhas novas experiên
 na criação de um sistema para a igreja que frequento.
 
 Boa noite e até mais.
+
+* PS: Depois que fiz a primeira publicação, o Github Pages me mandou um e-mail 
+pedindo para alterar a configuração do *highlighter* para *rouge* porque eles não
+suportam o *pygments*.
